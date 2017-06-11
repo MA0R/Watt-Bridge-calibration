@@ -1,0 +1,124 @@
+Waiting for 1 seconds
+2017.06.08.14.49.56,  writing to RD: 
+2017.06.08.14.49.56,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.49.57,  writing to COUNT: 
+2017.06.08.14.49.57,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.49.57,  writing to WB: 
+2017.06.08.14.49.57,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.49.57,  reading COUNT: 108.916340946
+2017.06.08.14.49.57,  writing to COUNT: 
+2017.06.08.14.49.57,  writing to COUNT: 
+2017.06.08.14.49.57,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.49.58,  writing to COUNT: 
+2017.06.08.14.49.58,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.49.58,  writing to WB: 
+2017.06.08.14.49.58,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.49.58,  reading COUNT: 103.443917273
+2017.06.08.14.49.59,  writing to COUNT: 
+2017.06.08.14.49.59,  writing to COUNT: 
+2017.06.08.14.49.59,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.49.59,  writing to COUNT: 
+2017.06.08.14.49.59,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.49.59,  writing to WB: 
+2017.06.08.14.49.59,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.00,  reading COUNT: 104.660867695
+2017.06.08.14.50.00,  writing to COUNT: 
+2017.06.08.14.50.00,  writing to COUNT: 
+2017.06.08.14.50.00,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.00,  writing to COUNT: 
+2017.06.08.14.50.00,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.01,  writing to WB: 
+2017.06.08.14.50.01,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.01,  reading COUNT: 104.281418813
+2017.06.08.14.50.01,  writing to COUNT: 
+2017.06.08.14.50.01,  writing to COUNT: 
+2017.06.08.14.50.01,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.02,  writing to COUNT: 
+2017.06.08.14.50.02,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.02,  writing to WB: 
+2017.06.08.14.50.02,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.02,  reading COUNT: 104.62543005
+2017.06.08.14.50.02,  writing to COUNT: 
+2017.06.08.14.50.02,  writing to COUNT: 
+Waiting for 1 seconds
+2017.06.08.14.50.03,  writing to RD: 
+2017.06.08.14.50.03,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.04,  writing to COUNT: 
+2017.06.08.14.50.04,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.04,  writing to WB: 
+2017.06.08.14.50.04,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.04,  reading COUNT: 104.662396703
+2017.06.08.14.50.05,  writing to COUNT: 
+2017.06.08.14.50.05,  writing to COUNT: 
+2017.06.08.14.50.05,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.05,  writing to COUNT: 
+2017.06.08.14.50.05,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.05,  writing to WB: 
+2017.06.08.14.50.05,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.06,  reading COUNT: 104.372812284
+2017.06.08.14.50.06,  writing to COUNT: 
+2017.06.08.14.50.06,  writing to COUNT: 
+2017.06.08.14.50.06,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.06,  writing to COUNT: 
+2017.06.08.14.50.06,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.06,  writing to WB: 
+2017.06.08.14.50.06,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.07,  reading COUNT: 103.997143657
+2017.06.08.14.50.07,  writing to COUNT: 
+2017.06.08.14.50.07,  writing to COUNT: 
+2017.06.08.14.50.07,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.07,  writing to COUNT: 
+2017.06.08.14.50.07,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.08,  writing to WB: 
+2017.06.08.14.50.08,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.08,  reading COUNT: 104.434811684
+2017.06.08.14.50.08,  writing to COUNT: 
+2017.06.08.14.50.08,  writing to COUNT: 
+2017.06.08.14.50.08,  writing to WB: 
+Waiting for 0.5 seconds
+2017.06.08.14.50.09,  writing to COUNT: 
+2017.06.08.14.50.09,  writing to COUNT: 
+Running GOD's AC at port GPIB::24::INSTR
+Swerlein algorithm failed, NOT aborting
+2017.06.08.14.50.09,  writing to WB: 
+2017.06.08.14.50.09,  writing to COUNT: 
+Waiting for 0.25 seconds
+2017.06.08.14.50.09,  reading COUNT: 104.641618436
+2017.06.08.14.50.09,  writing to COUNT: 
+2017.06.08.14.50.09,  writing to COUNT: 
