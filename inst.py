@@ -1,14 +1,15 @@
 """
-Organise instruments as classes so that swapping different sources and meters
-can be done relatively easily. The objects should return appropriate strings
-that can be executed as commands by the try_command method of the GPIBThread
-class in gpib_data.py. It assumes that 'self.inst_bus' is used in gpib_data.
+A general instrument class, that provides wrappers for commands and returns
+a status for the command or query. To be used in conjunction with the 'com'
+function in the data collection threads.It can be used as a base class
+and further more specialised functions can be added, like a 'reset' function
+for a specific instrument.
 """
 
 import time
 class INSTRUMENT(object):
     def __init__(self,inst_bus, **kwargs):
-        self.com = {'label':'', 'Ranges':[], 'measure_seperation':'0', 'NoError':'','reset':'','status':'','init':'','MakeSafe':'', 'error':'', 'SettleTime':'0', 'SetValue':'', 'MeasureSetup':'','SingleMsmntSetup':''} #command dictionary
+        self.com = {'label':'', 'Ranges':[], 'measure_seperation':'0', 'NoError':'','reset':'','status':'','init':'','MakeSafe':'', 'error':'', 'SettleTime':'0', 'SetValue':'$', 'MeasureSetup':'','SingleMsmntSetup':''} #command dictionary
         self.com.update(kwargs) #update dictionary to include all sent commands.
         self.label = self.com["label"]
         self.bus = self.com['bus']
@@ -38,22 +39,24 @@ class INSTRUMENT(object):
             sucess = True
         except self.inst_bus.VisaIOError:
             string = string+"visa failed"
+            
         return [sucess,None,string]
     
     def send(self,command):
         sucess = False #did we read sucessfully
         #string to be printed and saved in log file
-        string = str(time.strftime("%Y.%m.%d.%H.%M.%S, ", time.localtime()))+' writing to '+self.label+': ' 
+        string = str(time.strftime("%Y.%m.%d.%H.%M.%S, ", time.localtime()))+' writing to '+self.label+': '
+        string = string+str(command)
         try:
             self.inst.write(command)
             time.sleep(self.com_settle_time)
-            string = string+str(command)
+            string = string+", success "
             sucess = True
         except self.inst_bus.VisaIOError:
-            string = string+"visa failed"
+            string = string+", Visa failed"
         return [sucess,None,string]
     
-    def read_instrument(self):
+    def read(self):
         val = '0' #value to be returned, string-type like instruments
         sucess = False #did we read sucessfully
         #string to be printed and saved in log file

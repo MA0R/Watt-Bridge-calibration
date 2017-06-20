@@ -1,7 +1,0 @@
-Waiting for 1 seconds
-2017.06.08.14.49.22,  writing to RD: 
-2017.06.08.14.49.22,  writing to WB: 
-Waiting for 0.5 seconds
-2017.06.08.14.49.22,  writing to COUNT: 
-2017.06.08.14.49.23,  writing to COUNT: 
-Running GOD's AC at port GPIB::24::INSTR

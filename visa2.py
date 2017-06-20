@@ -68,14 +68,14 @@ class SpecificItem(object):
         return
         
     def read_raw(self):
-        time.sleep(0.2)
+        time.sleep(0.1)
         return str(self.data.next())
     
     def read(self):
-        time.sleep(0.2)
+        time.sleep(0.1)
         return str(self.data.next())
     def query(self,word):
-        time.sleep(0.2)
+        time.sleep(0.1)
         return str(0)
 
 class ResourceManager(object):
